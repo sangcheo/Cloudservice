@@ -1,0 +1,105 @@
+
+
+
+1교시 
+
+
+git 명령어 
+
+git clone 원격리포지토리주소
+git clone 원격리포지토리주소 .
+git confin --list 
+
+리눅스 명령어 
+vi에디어 화면이 나오면 j(아래) k(위) q(탈출)
+
+
+2교시 
+다른 사람의 원격 리포지 토리를 클론 후 새 파일 추가 또는 기존 파일 편집 후 로컬리포지토리에 커밋 
+(git push 입력해서)
+
+
+
+원 저작자와 바인딩된 원격 리포지토리 주소를
+
+
+
+git 명령어 
+
+git clone 원격리포지토리주소 = 클론 복제 (내 폴더 안에 폴더 생성)
+git clone 원격리포지토리주소 . = 클론 복제 (폴더 안에 파일 생성)
+
+. = 현재 폴더
+. . = 위에 폴더
+
+
+git config --list = 이름 이메일 등 등 확인 
+config = 약자 (구성의 약자)
+
+남 파일 가져와서 
+git commit -m " " 입력 
+git log 입력 시 
+저작권 표시..? 남 이메일 + 내 이메일 ,,, 
+내 파일 날짜 이메일 확인 가능 
+
+git remote < 이게뭐지 
+
+
+git status < 현재 상태 확인?? 
+
+
+git clone 
+
+
+
+1.
+git status = 파일 확인?
+(빨간색) untracked files 파일명 = 처음 보는 파일
+
+2. git add 파일명
+ ㄴ git status = 초록색 파일 (스테이지 업로드)
+
+
+워어어어 
+git push = 내 계정에 올리기 
+git remote -v 내가 파일 올릴 권한이 잇는지 없는지 확인할수잇는기능
+git remote remove origin (오리진 삭제 하기ㅣ)
+git remote -v 
+
+원격 리포지토리에서 새 폴더 만들기 
+
+git remote add origin 원격 리포지토리 폴더 = 내가 올릴 권한 잇는 폴더로 
+=> origin 내 지메일 
+
+git push = 처음 올려서 에러 그러니 
+git push -u origin main 입력
+이후부턴 git push 만 적어도 Ok
+
+
+
+확인 git remote -v
+삭제 git remote remove origin
+등록 git remote add origin 내가만든원격리포지토리주소
+확인 git remote -v(제대로등록됏는지다시확인)
+등록확인이됐으면
+
+git push > 오류발생 
+(새로 만든 깃 리모트 리포지토리주소와 바인딩 필요)
+= git push -u origin main 업로드 
+이후로는 git push만 적어도 가능 
+
+
+
+리눅스 명령어 
+
+vi 편집기 화면 나타날 시 
+= 아래 k 위로 q 나가기(편집기 탈출)
+
+ls = 파일 확인
+ls -a = 숨긴 폴더 확인 
+
+기타
+
+shift + delete - 폴더 완전 삭제 
+
+
