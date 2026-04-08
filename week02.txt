@@ -4,3 +4,10 @@
 깃 명령어
 git fetch 
 git pull 
+
+
+git fetch 
+git pull
+got log --oneline --graph
+
+week06.txt 파일 수동 conf
